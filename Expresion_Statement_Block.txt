@@ -1,0 +1,23 @@
+1. EXPRESSION :
+    - Dalam PHP semua kode/syntax yang di tulis adalah EXPRESSION
+    - Sederhananya, EXPRESSION adalah apapun yang memiliki Value/Nilai
+
+2. STATEMENT :
+    - STATEMENT adalah kalimat lengkap dalam bahasa
+    - Sebuah STATEMENT berisikan execution lengkap, biasanya diakhiri oleh titik koma (;)
+
+    CONTOH STATEMENT :
+    $name = "faiz ivan dharmawan";
+    echo $name;
+
+3. BLOCK :
+    - BLOCK adalah kumpulan 0 nol atau lebih STATEMENT
+    - BLOCK diawali dan diakhiri dengan kurung kurawal {}
+
+    CONTOH BLOCK :
+    function runApp($name)
+    {
+        echo "Start Program" . PHP_EOL;
+        echo "Hello $name . PHP_EOL;
+        echo "End Program" . PHP_EOL;
+    };
