@@ -1,5 +1,6 @@
 <?php
-echo"Hello World";
+echo"Hello World"."\n";
+echo "Ini adalah contoh edit untuk Git"."\n";
 
 /*
 
